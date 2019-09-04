@@ -9,8 +9,9 @@
 import Foundation
 
 extension String {
+    
+     /// 英文单词分割
      var words: [String] {
-        
         return lowercased()
             .components(separatedBy: .punctuationCharacters)
             .joined()
@@ -19,6 +20,10 @@ extension String {
     }
 }
 
+/// 文本转单词列表
+///
+/// - Parameter fileName: 邮件文件名
+/// - Returns: 当前邮件的所有单词数组
 public func TextToWordList(fileName: String) -> [String] {
     
     guard let path = Bundle.main.path(forResource:fileName, ofType:"txt"), let text = try? String(contentsOfFile:path, encoding: String.Encoding.utf8) else {
@@ -27,6 +32,9 @@ public func TextToWordList(fileName: String) -> [String] {
     return text.words
 }
 
+/// 获取所有邮件的单词集合和对应的邮件标签
+///
+/// - Returns: 所有邮件的单词集合和对应的邮件标签
 fileprivate func GetAllWordAndLabel() -> ([[String]], [Double]){
     var emailWordList: [[String]] = []
     var emailLabelList: [Double] = []
@@ -39,6 +47,10 @@ fileprivate func GetAllWordAndLabel() -> ([[String]], [Double]){
     return (emailWordList, emailLabelList)
 }
 
+/// 去除重复的单词
+///
+/// - Parameter wordList: 所有单词词集
+/// - Returns: 没有重复单词的词集集合
 public func GetWordSetBy(wordList: [[String]]) -> [String] {
     var wordSet: [String] = []
     for words in wordList {
@@ -52,6 +64,12 @@ public func GetWordSetBy(wordList: [[String]]) -> [String] {
     
 }
 
+/// 把单词转成词向量
+///
+/// - Parameters:
+///   - wordSet: 总词集库
+///   - wordList: 单个邮件的词集
+/// - Returns: 返回当前邮件的词集向量
 public func wordsToVec(byWordSet wordSet: [String], andWordList wordList: [String]) -> [Double] {
     var vec: [Double] = [Double](repeating: 0.0, count: wordSet.count)
     for word in wordList {
@@ -146,7 +164,7 @@ fileprivate var GetParameters: (wordSet: [String], pShame: Double, p0Vect: [Doub
     return (wordSet, pShame, p0Vect, p1Vect)
 }()
 
-/// 检测垃圾邮件
+/// 判断是否为垃圾邮件
 ///
 /// - Parameter email: 邮件内容
 /// - Returns: 是否是垃圾邮件
@@ -160,7 +178,6 @@ public func CheckEmail(email: String) -> Bool {
 
 /// 测试
 public func test() {
-    
     
     let testIndex = 5
     //准备数据
