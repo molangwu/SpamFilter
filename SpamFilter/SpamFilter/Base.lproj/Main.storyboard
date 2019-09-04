@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SpamFilter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="邮件内容" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="p5V-7R-I8F">
+                                <rect key="frame" x="16" y="78" width="343" height="511"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qxk-Vh-IEm">
+                                <rect key="frame" x="16" y="610" width="343" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="KNi-PQ-KEE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="检测邮件">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="checkEmailAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C8t-3X-TcK"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="测试邮件名称 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0kE-2n-baY">
+                                <rect key="frame" x="16" y="32" width="343" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="0.69743067781690138" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0kE-2n-baY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="5ny-y5-tDM"/>
+                            <constraint firstItem="p5V-7R-I8F" firstAttribute="trailing" secondItem="Qxk-Vh-IEm" secondAttribute="trailing" id="AYB-eK-wNw"/>
+                            <constraint firstItem="Qxk-Vh-IEm" firstAttribute="top" secondItem="p5V-7R-I8F" secondAttribute="bottom" constant="21" id="LEN-8g-fVa"/>
+                            <constraint firstItem="p5V-7R-I8F" firstAttribute="leading" secondItem="Qxk-Vh-IEm" secondAttribute="leading" id="UQU-Xn-26c"/>
+                            <constraint firstItem="0kE-2n-baY" firstAttribute="trailing" secondItem="p5V-7R-I8F" secondAttribute="trailing" id="Udf-9V-vEc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Qxk-Vh-IEm" secondAttribute="bottom" constant="27" id="fcI-kO-99v"/>
+                            <constraint firstItem="p5V-7R-I8F" firstAttribute="top" secondItem="0kE-2n-baY" secondAttribute="bottom" constant="8" symbolic="YES" id="fwG-bK-eJ1"/>
+                            <constraint firstItem="0kE-2n-baY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="hKb-sj-rAq"/>
+                            <constraint firstItem="0kE-2n-baY" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="iB3-PG-X94"/>
+                            <constraint firstItem="0kE-2n-baY" firstAttribute="leading" secondItem="p5V-7R-I8F" secondAttribute="leading" id="lYy-gp-8Zk"/>
+                            <constraint firstItem="p5V-7R-I8F" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rk5-uy-ZNn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="emailFileNameLabel" destination="0kE-2n-baY" id="xb4-IH-vDM"/>
+                        <outlet property="emailTextView" destination="p5V-7R-I8F" id="2WJ-k1-TWB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="118.52678571428571"/>
+        </scene>
+    </scenes>
+</document>

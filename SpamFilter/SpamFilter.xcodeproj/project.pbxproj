@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A5E77A1231E648A0034BB1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E77A0231E648A0034BB1B /* AppDelegate.swift */; };
+		4A5E77A3231E648A0034BB1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E77A2231E648A0034BB1B /* ViewController.swift */; };
+		4A5E77A6231E648A0034BB1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E77A4231E648A0034BB1B /* Main.storyboard */; };
+		4A5E77A8231E648C0034BB1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E77A7231E648C0034BB1B /* Assets.xcassets */; };
+		4A5E77AB231E648C0034BB1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E77A9231E648C0034BB1B /* LaunchScreen.storyboard */; };
+		4A5E78EF231E68AF0034BB1B /* spam13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78BC231E68AF0034BB1B /* spam13.txt */; };
+		4A5E78F0231E68AF0034BB1B /* spam12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78BD231E68AF0034BB1B /* spam12.txt */; };
+		4A5E78F1231E68AF0034BB1B /* spam10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78BE231E68AF0034BB1B /* spam10.txt */; };
+		4A5E78F2231E68AF0034BB1B /* spam11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78BF231E68AF0034BB1B /* spam11.txt */; };
+		4A5E78F3231E68AF0034BB1B /* spam15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78C0231E68AF0034BB1B /* spam15.txt */; };
+		4A5E78F4231E68AF0034BB1B /* spam8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78C1231E68AF0034BB1B /* spam8.txt */; };
+		4A5E78F5231E68AF0034BB1B /* spam9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78C2231E68AF0034BB1B /* spam9.txt */; };
+		4A5E78F6231E68AF0034BB1B /* spam14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78C3231E68AF0034BB1B /* spam14.txt */; };
+		4A5E78F7231E68AF0034BB1B /* spam16.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78C4231E68AF0034BB1B /* spam16.txt */; };
+		4A5E78F8231E68AF0034BB1B /* spam17.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78C5231E68AF0034BB1B /* spam17.txt */; };
+		4A5E78F9231E68AF0034BB1B /* spam7.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78C6231E68AF0034BB1B /* spam7.txt */; };
+		4A5E78FA231E68AF0034BB1B /* spam6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78C7231E68AF0034BB1B /* spam6.txt */; };
+		4A5E78FB231E68AF0034BB1B /* spam19.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78C8231E68AF0034BB1B /* spam19.txt */; };
+		4A5E78FC231E68AF0034BB1B /* spam4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78C9231E68AF0034BB1B /* spam4.txt */; };
+		4A5E78FD231E68AF0034BB1B /* spam25.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78CA231E68AF0034BB1B /* spam25.txt */; };
+		4A5E78FE231E68AF0034BB1B /* spam24.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78CB231E68AF0034BB1B /* spam24.txt */; };
+		4A5E78FF231E68AF0034BB1B /* spam5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78CC231E68AF0034BB1B /* spam5.txt */; };
+		4A5E7900231E68AF0034BB1B /* spam18.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78CD231E68AF0034BB1B /* spam18.txt */; };
+		4A5E7901231E68AF0034BB1B /* spam1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78CE231E68AF0034BB1B /* spam1.txt */; };
+		4A5E7902231E68AF0034BB1B /* spam20.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78CF231E68AF0034BB1B /* spam20.txt */; };
+		4A5E7903231E68AF0034BB1B /* spam21.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78D0231E68AF0034BB1B /* spam21.txt */; };
+		4A5E7904231E68AF0034BB1B /* spam23.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78D1231E68AF0034BB1B /* spam23.txt */; };
+		4A5E7905231E68AF0034BB1B /* spam2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78D2231E68AF0034BB1B /* spam2.txt */; };
+		4A5E7906231E68AF0034BB1B /* spam3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78D3231E68AF0034BB1B /* spam3.txt */; };
+		4A5E7907231E68AF0034BB1B /* spam22.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78D4231E68AF0034BB1B /* spam22.txt */; };
+		4A5E7908231E68AF0034BB1B /* ham8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78D6231E68AF0034BB1B /* ham8.txt */; };
+		4A5E7909231E68AF0034BB1B /* ham9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78D7231E68AF0034BB1B /* ham9.txt */; };
+		4A5E790A231E68AF0034BB1B /* ham11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78D8231E68AF0034BB1B /* ham11.txt */; };
+		4A5E790B231E68AF0034BB1B /* ham10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78D9231E68AF0034BB1B /* ham10.txt */; };
+		4A5E790C231E68AF0034BB1B /* ham12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78DA231E68AF0034BB1B /* ham12.txt */; };
+		4A5E790D231E68AF0034BB1B /* ham13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78DB231E68AF0034BB1B /* ham13.txt */; };
+		4A5E790E231E68AF0034BB1B /* ham17.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78DC231E68AF0034BB1B /* ham17.txt */; };
+		4A5E790F231E68AF0034BB1B /* ham16.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78DD231E68AF0034BB1B /* ham16.txt */; };
+		4A5E7910231E68AF0034BB1B /* ham14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78DE231E68AF0034BB1B /* ham14.txt */; };
+		4A5E7911231E68AF0034BB1B /* ham15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78DF231E68AF0034BB1B /* ham15.txt */; };
+		4A5E7912231E68AF0034BB1B /* ham24.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78E0231E68AF0034BB1B /* ham24.txt */; };
+		4A5E7913231E68AF0034BB1B /* ham18.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78E1231E68AF0034BB1B /* ham18.txt */; };
+		4A5E7914231E68AF0034BB1B /* ham19.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78E2231E68AF0034BB1B /* ham19.txt */; };
+		4A5E7915231E68AF0034BB1B /* ham25.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78E3231E68AF0034BB1B /* ham25.txt */; };
+		4A5E7916231E68AF0034BB1B /* ham22.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78E4231E68AF0034BB1B /* ham22.txt */; };
+		4A5E7917231E68AF0034BB1B /* ham23.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78E5231E68AF0034BB1B /* ham23.txt */; };
+		4A5E7918231E68AF0034BB1B /* ham21.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78E6231E68AF0034BB1B /* ham21.txt */; };
+		4A5E7919231E68AF0034BB1B /* ham20.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78E7231E68AF0034BB1B /* ham20.txt */; };
+		4A5E791A231E68AF0034BB1B /* ham2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78E8231E68AF0034BB1B /* ham2.txt */; };
+		4A5E791B231E68AF0034BB1B /* ham3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78E9231E68AF0034BB1B /* ham3.txt */; };
+		4A5E791C231E68AF0034BB1B /* ham1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78EA231E68AF0034BB1B /* ham1.txt */; };
+		4A5E791D231E68AF0034BB1B /* ham4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78EB231E68AF0034BB1B /* ham4.txt */; };
+		4A5E791E231E68AF0034BB1B /* ham5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78EC231E68AF0034BB1B /* ham5.txt */; };
+		4A5E791F231E68AF0034BB1B /* ham7.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78ED231E68AF0034BB1B /* ham7.txt */; };
+		4A5E7920231E68AF0034BB1B /* ham6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E78EE231E68AF0034BB1B /* ham6.txt */; };
+		4A5E7922231E69700034BB1B /* SpamFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E7921231E69700034BB1B /* SpamFilter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A5E779D231E648A0034BB1B /* SpamFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpamFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5E77A0231E648A0034BB1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A5E77A2231E648A0034BB1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A5E77A5231E648A0034BB1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A5E77A7231E648C0034BB1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A5E77AA231E648C0034BB1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A5E77AC231E648C0034BB1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5E78BC231E68AF0034BB1B /* spam13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam13.txt; sourceTree = "<group>"; };
+		4A5E78BD231E68AF0034BB1B /* spam12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam12.txt; sourceTree = "<group>"; };
+		4A5E78BE231E68AF0034BB1B /* spam10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam10.txt; sourceTree = "<group>"; };
+		4A5E78BF231E68AF0034BB1B /* spam11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam11.txt; sourceTree = "<group>"; };
+		4A5E78C0231E68AF0034BB1B /* spam15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam15.txt; sourceTree = "<group>"; };
+		4A5E78C1231E68AF0034BB1B /* spam8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam8.txt; sourceTree = "<group>"; };
+		4A5E78C2231E68AF0034BB1B /* spam9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam9.txt; sourceTree = "<group>"; };
+		4A5E78C3231E68AF0034BB1B /* spam14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam14.txt; sourceTree = "<group>"; };
+		4A5E78C4231E68AF0034BB1B /* spam16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam16.txt; sourceTree = "<group>"; };
+		4A5E78C5231E68AF0034BB1B /* spam17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam17.txt; sourceTree = "<group>"; };
+		4A5E78C6231E68AF0034BB1B /* spam7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam7.txt; sourceTree = "<group>"; };
+		4A5E78C7231E68AF0034BB1B /* spam6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam6.txt; sourceTree = "<group>"; };
+		4A5E78C8231E68AF0034BB1B /* spam19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam19.txt; sourceTree = "<group>"; };
+		4A5E78C9231E68AF0034BB1B /* spam4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam4.txt; sourceTree = "<group>"; };
+		4A5E78CA231E68AF0034BB1B /* spam25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam25.txt; sourceTree = "<group>"; };
+		4A5E78CB231E68AF0034BB1B /* spam24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam24.txt; sourceTree = "<group>"; };
+		4A5E78CC231E68AF0034BB1B /* spam5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam5.txt; sourceTree = "<group>"; };
+		4A5E78CD231E68AF0034BB1B /* spam18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam18.txt; sourceTree = "<group>"; };
+		4A5E78CE231E68AF0034BB1B /* spam1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam1.txt; sourceTree = "<group>"; };
+		4A5E78CF231E68AF0034BB1B /* spam20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam20.txt; sourceTree = "<group>"; };
+		4A5E78D0231E68AF0034BB1B /* spam21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam21.txt; sourceTree = "<group>"; };
+		4A5E78D1231E68AF0034BB1B /* spam23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam23.txt; sourceTree = "<group>"; };
+		4A5E78D2231E68AF0034BB1B /* spam2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam2.txt; sourceTree = "<group>"; };
+		4A5E78D3231E68AF0034BB1B /* spam3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam3.txt; sourceTree = "<group>"; };
+		4A5E78D4231E68AF0034BB1B /* spam22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spam22.txt; sourceTree = "<group>"; };
+		4A5E78D6231E68AF0034BB1B /* ham8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham8.txt; sourceTree = "<group>"; };
+		4A5E78D7231E68AF0034BB1B /* ham9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham9.txt; sourceTree = "<group>"; };
+		4A5E78D8231E68AF0034BB1B /* ham11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham11.txt; sourceTree = "<group>"; };
+		4A5E78D9231E68AF0034BB1B /* ham10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham10.txt; sourceTree = "<group>"; };
+		4A5E78DA231E68AF0034BB1B /* ham12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham12.txt; sourceTree = "<group>"; };
+		4A5E78DB231E68AF0034BB1B /* ham13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham13.txt; sourceTree = "<group>"; };
+		4A5E78DC231E68AF0034BB1B /* ham17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham17.txt; sourceTree = "<group>"; };
+		4A5E78DD231E68AF0034BB1B /* ham16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham16.txt; sourceTree = "<group>"; };
+		4A5E78DE231E68AF0034BB1B /* ham14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham14.txt; sourceTree = "<group>"; };
+		4A5E78DF231E68AF0034BB1B /* ham15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham15.txt; sourceTree = "<group>"; };
+		4A5E78E0231E68AF0034BB1B /* ham24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham24.txt; sourceTree = "<group>"; };
+		4A5E78E1231E68AF0034BB1B /* ham18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham18.txt; sourceTree = "<group>"; };
+		4A5E78E2231E68AF0034BB1B /* ham19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham19.txt; sourceTree = "<group>"; };
+		4A5E78E3231E68AF0034BB1B /* ham25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham25.txt; sourceTree = "<group>"; };
+		4A5E78E4231E68AF0034BB1B /* ham22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham22.txt; sourceTree = "<group>"; };
+		4A5E78E5231E68AF0034BB1B /* ham23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham23.txt; sourceTree = "<group>"; };
+		4A5E78E6231E68AF0034BB1B /* ham21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham21.txt; sourceTree = "<group>"; };
+		4A5E78E7231E68AF0034BB1B /* ham20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham20.txt; sourceTree = "<group>"; };
+		4A5E78E8231E68AF0034BB1B /* ham2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham2.txt; sourceTree = "<group>"; };
+		4A5E78E9231E68AF0034BB1B /* ham3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham3.txt; sourceTree = "<group>"; };
+		4A5E78EA231E68AF0034BB1B /* ham1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham1.txt; sourceTree = "<group>"; };
+		4A5E78EB231E68AF0034BB1B /* ham4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham4.txt; sourceTree = "<group>"; };
+		4A5E78EC231E68AF0034BB1B /* ham5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham5.txt; sourceTree = "<group>"; };
+		4A5E78ED231E68AF0034BB1B /* ham7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham7.txt; sourceTree = "<group>"; };
+		4A5E78EE231E68AF0034BB1B /* ham6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ham6.txt; sourceTree = "<group>"; };
+		4A5E7921231E69700034BB1B /* SpamFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpamFilter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A5E779A231E648A0034BB1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A5E7794231E648A0034BB1B = {
+			isa = PBXGroup;
+			children = (
+				4A5E78BA231E68AF0034BB1B /* email */,
+				4A5E779F231E648A0034BB1B /* SpamFilter */,
+				4A5E779E231E648A0034BB1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A5E779E231E648A0034BB1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A5E779D231E648A0034BB1B /* SpamFilter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A5E779F231E648A0034BB1B /* SpamFilter */ = {
+			isa = PBXGroup;
+			children = (
+				4A5E77A0231E648A0034BB1B /* AppDelegate.swift */,
+				4A5E77A2231E648A0034BB1B /* ViewController.swift */,
+				4A5E77A4231E648A0034BB1B /* Main.storyboard */,
+				4A5E77A7231E648C0034BB1B /* Assets.xcassets */,
+				4A5E77A9231E648C0034BB1B /* LaunchScreen.storyboard */,
+				4A5E77AC231E648C0034BB1B /* Info.plist */,
+				4A5E7921231E69700034BB1B /* SpamFilter.swift */,
+			);
+			path = SpamFilter;
+			sourceTree = "<group>";
+		};
+		4A5E78BA231E68AF0034BB1B /* email */ = {
+			isa = PBXGroup;
+			children = (
+				4A5E78BB231E68AF0034BB1B /* spam */,
+				4A5E78D5231E68AF0034BB1B /* ham */,
+			);
+			path = email;
+			sourceTree = "<group>";
+		};
+		4A5E78BB231E68AF0034BB1B /* spam */ = {
+			isa = PBXGroup;
+			children = (
+				4A5E78BC231E68AF0034BB1B /* spam13.txt */,
+				4A5E78BD231E68AF0034BB1B /* spam12.txt */,
+				4A5E78BE231E68AF0034BB1B /* spam10.txt */,
+				4A5E78BF231E68AF0034BB1B /* spam11.txt */,
+				4A5E78C0231E68AF0034BB1B /* spam15.txt */,
+				4A5E78C1231E68AF0034BB1B /* spam8.txt */,
+				4A5E78C2231E68AF0034BB1B /* spam9.txt */,
+				4A5E78C3231E68AF0034BB1B /* spam14.txt */,
+				4A5E78C4231E68AF0034BB1B /* spam16.txt */,
+				4A5E78C5231E68AF0034BB1B /* spam17.txt */,
+				4A5E78C6231E68AF0034BB1B /* spam7.txt */,
+				4A5E78C7231E68AF0034BB1B /* spam6.txt */,
+				4A5E78C8231E68AF0034BB1B /* spam19.txt */,
+				4A5E78C9231E68AF0034BB1B /* spam4.txt */,
+				4A5E78CA231E68AF0034BB1B /* spam25.txt */,
+				4A5E78CB231E68AF0034BB1B /* spam24.txt */,
+				4A5E78CC231E68AF0034BB1B /* spam5.txt */,
+				4A5E78CD231E68AF0034BB1B /* spam18.txt */,
+				4A5E78CE231E68AF0034BB1B /* spam1.txt */,
+				4A5E78CF231E68AF0034BB1B /* spam20.txt */,
+				4A5E78D0231E68AF0034BB1B /* spam21.txt */,
+				4A5E78D1231E68AF0034BB1B /* spam23.txt */,
+				4A5E78D2231E68AF0034BB1B /* spam2.txt */,
+				4A5E78D3231E68AF0034BB1B /* spam3.txt */,
+				4A5E78D4231E68AF0034BB1B /* spam22.txt */,
+			);
+			path = spam;
+			sourceTree = "<group>";
+		};
+		4A5E78D5231E68AF0034BB1B /* ham */ = {
+			isa = PBXGroup;
+			children = (
+				4A5E78D6231E68AF0034BB1B /* ham8.txt */,
+				4A5E78D7231E68AF0034BB1B /* ham9.txt */,
+				4A5E78D8231E68AF0034BB1B /* ham11.txt */,
+				4A5E78D9231E68AF0034BB1B /* ham10.txt */,
+				4A5E78DA231E68AF0034BB1B /* ham12.txt */,
+				4A5E78DB231E68AF0034BB1B /* ham13.txt */,
+				4A5E78DC231E68AF0034BB1B /* ham17.txt */,
+				4A5E78DD231E68AF0034BB1B /* ham16.txt */,
+				4A5E78DE231E68AF0034BB1B /* ham14.txt */,
+				4A5E78DF231E68AF0034BB1B /* ham15.txt */,
+				4A5E78E0231E68AF0034BB1B /* ham24.txt */,
+				4A5E78E1231E68AF0034BB1B /* ham18.txt */,
+				4A5E78E2231E68AF0034BB1B /* ham19.txt */,
+				4A5E78E3231E68AF0034BB1B /* ham25.txt */,
+				4A5E78E4231E68AF0034BB1B /* ham22.txt */,
+				4A5E78E5231E68AF0034BB1B /* ham23.txt */,
+				4A5E78E6231E68AF0034BB1B /* ham21.txt */,
+				4A5E78E7231E68AF0034BB1B /* ham20.txt */,
+				4A5E78E8231E68AF0034BB1B /* ham2.txt */,
+				4A5E78E9231E68AF0034BB1B /* ham3.txt */,
+				4A5E78EA231E68AF0034BB1B /* ham1.txt */,
+				4A5E78EB231E68AF0034BB1B /* ham4.txt */,
+				4A5E78EC231E68AF0034BB1B /* ham5.txt */,
+				4A5E78ED231E68AF0034BB1B /* ham7.txt */,
+				4A5E78EE231E68AF0034BB1B /* ham6.txt */,
+			);
+			path = ham;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A5E779C231E648A0034BB1B /* SpamFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5E77AF231E648C0034BB1B /* Build configuration list for PBXNativeTarget "SpamFilter" */;
+			buildPhases = (
+				4A5E7799231E648A0034BB1B /* Sources */,
+				4A5E779A231E648A0034BB1B /* Frameworks */,
+				4A5E779B231E648A0034BB1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpamFilter;
+			productName = SpamFilter;
+			productReference = 4A5E779D231E648A0034BB1B /* SpamFilter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A5E7795231E648A0034BB1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = liangaiwu;
+				TargetAttributes = {
+					4A5E779C231E648A0034BB1B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4A5E7798231E648A0034BB1B /* Build configuration list for PBXProject "SpamFilter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A5E7794231E648A0034BB1B;
+			productRefGroup = 4A5E779E231E648A0034BB1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A5E779C231E648A0034BB1B /* SpamFilter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A5E779B231E648A0034BB1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5E7904231E68AF0034BB1B /* spam23.txt in Resources */,
+				4A5E7920231E68AF0034BB1B /* ham6.txt in Resources */,
+				4A5E78F7231E68AF0034BB1B /* spam16.txt in Resources */,
+				4A5E790C231E68AF0034BB1B /* ham12.txt in Resources */,
+				4A5E791F231E68AF0034BB1B /* ham7.txt in Resources */,
+				4A5E78F1231E68AF0034BB1B /* spam10.txt in Resources */,
+				4A5E78F4231E68AF0034BB1B /* spam8.txt in Resources */,
+				4A5E78FB231E68AF0034BB1B /* spam19.txt in Resources */,
+				4A5E7917231E68AF0034BB1B /* ham23.txt in Resources */,
+				4A5E78F6231E68AF0034BB1B /* spam14.txt in Resources */,
+				4A5E7901231E68AF0034BB1B /* spam1.txt in Resources */,
+				4A5E790F231E68AF0034BB1B /* ham16.txt in Resources */,
+				4A5E791E231E68AF0034BB1B /* ham5.txt in Resources */,
+				4A5E78FF231E68AF0034BB1B /* spam5.txt in Resources */,
+				4A5E78F0231E68AF0034BB1B /* spam12.txt in Resources */,
+				4A5E7910231E68AF0034BB1B /* ham14.txt in Resources */,
+				4A5E7908231E68AF0034BB1B /* ham8.txt in Resources */,
+				4A5E77AB231E648C0034BB1B /* LaunchScreen.storyboard in Resources */,
+				4A5E7912231E68AF0034BB1B /* ham24.txt in Resources */,
+				4A5E78F8231E68AF0034BB1B /* spam17.txt in Resources */,
+				4A5E78EF231E68AF0034BB1B /* spam13.txt in Resources */,
+				4A5E78FE231E68AF0034BB1B /* spam24.txt in Resources */,
+				4A5E790B231E68AF0034BB1B /* ham10.txt in Resources */,
+				4A5E7907231E68AF0034BB1B /* spam22.txt in Resources */,
+				4A5E7914231E68AF0034BB1B /* ham19.txt in Resources */,
+				4A5E7903231E68AF0034BB1B /* spam21.txt in Resources */,
+				4A5E77A8231E648C0034BB1B /* Assets.xcassets in Resources */,
+				4A5E790A231E68AF0034BB1B /* ham11.txt in Resources */,
+				4A5E78F2231E68AF0034BB1B /* spam11.txt in Resources */,
+				4A5E790D231E68AF0034BB1B /* ham13.txt in Resources */,
+				4A5E7916231E68AF0034BB1B /* ham22.txt in Resources */,
+				4A5E791C231E68AF0034BB1B /* ham1.txt in Resources */,
+				4A5E78F5231E68AF0034BB1B /* spam9.txt in Resources */,
+				4A5E7909231E68AF0034BB1B /* ham9.txt in Resources */,
+				4A5E78F9231E68AF0034BB1B /* spam7.txt in Resources */,
+				4A5E791B231E68AF0034BB1B /* ham3.txt in Resources */,
+				4A5E7919231E68AF0034BB1B /* ham20.txt in Resources */,
+				4A5E77A6231E648A0034BB1B /* Main.storyboard in Resources */,
+				4A5E7906231E68AF0034BB1B /* spam3.txt in Resources */,
+				4A5E7913231E68AF0034BB1B /* ham18.txt in Resources */,
+				4A5E7915231E68AF0034BB1B /* ham25.txt in Resources */,
+				4A5E78FD231E68AF0034BB1B /* spam25.txt in Resources */,
+				4A5E78FC231E68AF0034BB1B /* spam4.txt in Resources */,
+				4A5E78FA231E68AF0034BB1B /* spam6.txt in Resources */,
+				4A5E7905231E68AF0034BB1B /* spam2.txt in Resources */,
+				4A5E7911231E68AF0034BB1B /* ham15.txt in Resources */,
+				4A5E791A231E68AF0034BB1B /* ham2.txt in Resources */,
+				4A5E791D231E68AF0034BB1B /* ham4.txt in Resources */,
+				4A5E7900231E68AF0034BB1B /* spam18.txt in Resources */,
+				4A5E790E231E68AF0034BB1B /* ham17.txt in Resources */,
+				4A5E7902231E68AF0034BB1B /* spam20.txt in Resources */,
+				4A5E78F3231E68AF0034BB1B /* spam15.txt in Resources */,
+				4A5E7918231E68AF0034BB1B /* ham21.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A5E7799231E648A0034BB1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5E77A3231E648A0034BB1B /* ViewController.swift in Sources */,
+				4A5E77A1231E648A0034BB1B /* AppDelegate.swift in Sources */,
+				4A5E7922231E69700034BB1B /* SpamFilter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A5E77A4231E648A0034BB1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A5E77A5231E648A0034BB1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A5E77A9231E648C0034BB1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A5E77AA231E648C0034BB1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A5E77AD231E648C0034BB1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A5E77AE231E648C0034BB1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A5E77B0231E648C0034BB1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpamFilter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpamFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A5E77B1231E648C0034BB1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpamFilter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpamFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A5E7798231E648A0034BB1B /* Build configuration list for PBXProject "SpamFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5E77AD231E648C0034BB1B /* Debug */,
+				4A5E77AE231E648C0034BB1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A5E77AF231E648C0034BB1B /* Build configuration list for PBXNativeTarget "SpamFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5E77B0231E648C0034BB1B /* Debug */,
+				4A5E77B1231E648C0034BB1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A5E7795231E648A0034BB1B /* Project object */;
+}
